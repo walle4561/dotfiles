@@ -1,0 +1,18 @@
+:set nu
+:set relativenumber
+:set ai
+:set bg=dark
+:syntax enable
+:set mouse=a
+:set tabstop=4
+:set autoindent
+:set shiftwidth=2
+:set softtabstop=2
+:set smarttab
+:set expandtab
+:set smartcase
+set termguicolors
+set background=light
+set clipboard=unnamedplus
+colorscheme gruvbox
+let g:gruvbox_contrast_light = 'soft'
