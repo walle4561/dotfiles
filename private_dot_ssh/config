@@ -1,0 +1,19 @@
+Include /Users/heguowei/.colima/ssh_config
+
+Include ~/.orbstack/ssh/config
+
+Host * 
+    PubkeyAcceptedAlgorithms +ssh-rsa 
+    HostKeyAlgorithms +ssh-rsa 
+
+Host github-personal
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_personal
+  IdentitiesOnly yes
+
+Host github-school
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_school
+  IdentitiesOnly yes
